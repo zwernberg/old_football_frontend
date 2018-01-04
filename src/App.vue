@@ -8,7 +8,7 @@
               <b-nav-item :to="{ name: 'Home'}">Home</b-nav-item>
               <b-nav-item-dropdown text="Matchups" right>
                 <div v-for="(weekNumber, index) in weeks" :key="index">
-                  <b-dropdown-item :to="{ name: 'Matchups', params: { week: weekNumber }}">{{weekNumber}}</b-dropdown-item>
+                  <b-dropdown-item :to="{ name: 'Matchups', params: { week: weekNumber }}">Week {{weekNumber}}</b-dropdown-item>
                 </div>
               </b-nav-item-dropdown>
             </b-navbar-nav>
