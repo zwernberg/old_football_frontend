@@ -23,5 +23,8 @@ export default new Router({
       component: Matchups,
       props: true
     }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })

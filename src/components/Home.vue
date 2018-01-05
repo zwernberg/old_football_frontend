@@ -1,6 +1,7 @@
 <template>
   <div class="home container">
     <h1>{{ msg }}</h1>
+  </div>
 </template>
 
 <script>
