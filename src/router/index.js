@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Matchups from '@/components/Matchups'
-import 'vue-awesome/icons'
+import 'vue-awesome/icons/check'
 import Icon from 'vue-awesome/components/Icon'
 
 
